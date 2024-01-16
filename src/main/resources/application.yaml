@@ -1,0 +1,4 @@
+logistic:
+  host: https://wuliu.market.alicloudapi.com
+  path: /kdi
+  appCode: 0bf95028df744a18a0dc3bb20f38728e
