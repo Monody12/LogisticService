@@ -36,6 +36,10 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    // dao
+    implementation("com.baomidou:mybatis-plus-boot-starter:3.5.4.1")
+    implementation("org.postgresql:postgresql:42.6.0")
 }
 
 tasks.test {

@@ -1,6 +1,6 @@
-package com.example.logisticservice.controller
+package com.kwl.logisticservice.controller
 
-import com.example.logisticservice.service.GetLogisticService
+import com.kwl.logisticservice.service.GetLogisticService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestParam

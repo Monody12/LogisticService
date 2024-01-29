@@ -1,4 +1,4 @@
-package com.example.logisticservice.util
+package com.kwl.logisticservice.util
 
 import okhttp3.OkHttpClient
 import java.util.concurrent.TimeUnit

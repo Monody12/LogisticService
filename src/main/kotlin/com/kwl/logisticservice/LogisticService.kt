@@ -1,4 +1,4 @@
-package com.example.logisticservice
+package com.kwl.logisticservice
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

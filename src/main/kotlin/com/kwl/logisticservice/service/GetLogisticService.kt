@@ -1,6 +1,6 @@
-package com.example.logisticservice.service
+package com.kwl.logisticservice.service
 
-import com.example.logisticservice.util.OkHttpClientUtil
+import com.kwl.logisticservice.util.OkHttpClientUtil
 import okhttp3.Request
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Service

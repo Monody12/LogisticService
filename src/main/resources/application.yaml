@@ -2,3 +2,17 @@ logistic:
   host: https://wuliu.market.alicloudapi.com
   path: /kdi
   appCode: 0bf95028df744a18a0dc3bb20f38728e
+
+spring:
+  datasource:
+#    url: jdbc:postgresql://pgsql:5432/postgres
+    url: jdbc:postgresql://192.168.3.56:5433/postgres
+    username: postgres
+    password: 590dVKb3tL6gXd0z
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
