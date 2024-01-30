@@ -31,7 +31,7 @@ class GetLogisticService {
             .build()
         val response = client.newCall(request).execute()
         // 如果响应异常，直接抛出异常
-        if (!response.isSuccessful) throw Exception("Unexpected code $response")
+        if (!response.isSuccessful) throw Exception("$response")
         return response.body!!.string()
     }
 }
