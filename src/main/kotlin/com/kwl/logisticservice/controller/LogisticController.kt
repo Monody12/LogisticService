@@ -1,6 +1,5 @@
 package com.kwl.logisticservice.controller
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper
 import com.google.gson.Gson
 import com.kwl.logisticservice.mapper.LogisticMapper
 import com.kwl.logisticservice.pojo.Logistic

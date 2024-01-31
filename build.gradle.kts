@@ -5,6 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.1.2"
     kotlin("jvm") version "1.8.22"
     kotlin("plugin.spring") version "1.8.22"
+    application
 }
 
 
@@ -61,4 +62,10 @@ tasks.withType<Test> {
 
 kotlin {
     jvmToolchain(17)
+}
+
+
+// 指定启动类
+tasks.named<org.springframework.boot.gradle.tasks.bundling.BootJar>("bootJar") {
+    mainClass.set("com.kwl.logisticservice.LogisticApplicationKt")
 }
